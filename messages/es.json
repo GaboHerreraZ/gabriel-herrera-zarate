@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "aboutMe": "1. Sobre mí",
+    "skills": "2. Habilidades",
+    "experience": "3. Experiencia",
+    "projects": "4. Proyectos"
+  },
+  "welcome": {
+    "label": "Bienvenido, Soy",
+    "rol": "Desarrollador de Software.",
+    "description": "Profesional en ingeniería electrónica radicado en Colombia, apasionado por las tecnologías informáticas y el desarrollo deaplicaciones web, enfocado en tecnologías front end como Angular y ReactJs.",
+    "contact": "Contacto"
+  },
+  "profile": {
+    "description": "Soy desarrollador de software desde hace 7 años y cuento con permisos de trabajo en Colombia  y España,  actualmente trabajo de forma remota con el rol de desarrollador Front End, enfocado en tecnologías Javascript como Angular, React, NextJs and Node Js.",
+    "download": "Descargar CV"
+  },
+  "skills": {
+    "frontEnd": "Habilidades Front End",
+    "backEnd": "Habilidades Back End",
+    "databases": "Habilidades en Bases de Datos"
+  },
+  "projects": {
+    "seeMore": "Ver más",
+    "taiCenter": "Aplicación web para la gestión de usuarios y reservas de clases de un gimnasio , fue desarrollada con las siguientes tecnologías:"
+  }
+}
