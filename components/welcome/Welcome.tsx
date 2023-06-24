@@ -76,7 +76,6 @@ export const Welcome = () => {
 
       <Fade delay={1200}>
         <Button
-          id="about-me"
           onClick={onCanvas}
           sx={{ marginTop: "5rem" }}
           size="small"

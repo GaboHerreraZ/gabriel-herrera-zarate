@@ -125,9 +125,26 @@ export const Skills = () => {
     {
       title: "MongoDb",
       svg: "/svg/mongo.svg",
-      rating: 3.5,
+      rating: 3,
       width: 40,
       height: 40,
+    },
+  ];
+
+  const cloud: Skill[] = [
+    {
+      title: "Firebase",
+      rating: 3.5,
+      svg: "/svg/firebase.svg",
+      height: 40,
+      width: 40,
+    },
+    {
+      title: "Azure Devops",
+      rating: 3,
+      svg: "/svg/azure.svg",
+      height: 40,
+      width: 40,
     },
   ];
 
@@ -195,8 +212,27 @@ export const Skills = () => {
         {lang("databases")}
       </Typography>
 
-      <Grid id="experience" container spacing={2}>
+      <Grid container spacing={2}>
         {databases.map((item, i) => (
+          <Grid key={i} item sm={2}>
+            <CardSkill item={item} />
+          </Grid>
+        ))}
+      </Grid>
+
+      <Typography
+        mt={5}
+        mb={5}
+        className="text-gradient"
+        textAlign="center"
+        variant="h4"
+        fontFamily="var(--font-family-text)"
+      >
+        {lang("cloud")}
+      </Typography>
+
+      <Grid id="experience" container spacing={2}>
+        {cloud.map((item, i) => (
           <Grid key={i} item sm={2}>
             <CardSkill item={item} />
           </Grid>

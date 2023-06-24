@@ -20,22 +20,23 @@
   "skills": {
     "frontEnd": "Front End Skills",
     "backEnd": "Back End Skills",
-    "databases": "Databases Skills"
+    "databases": "Databases Skills",
+    "cloud": "Cloud Skills"
   },
   "experience": {
     "raona": {
       "experience1": "Developing user stories using Angular, HTML, JavaScript, PrimeNG, and SASS.",
       "experience2": "Perform front-end unit tests using Jest.",
-      "experience3": "Manage code version control using Git in Azure DevOps.",
-      "experience4": "Use Scrum as an agile methodology for project management.",
+      "experience3": "Code version control using Git in Azure DevOps.",
+      "experience4": "Scrum as an agile methodology for project management.",
       "experience5": "Functional tests using Cypress to validate the behavior of the web application from a user's perspective."
     },
     "hiberus": {
       "experience1": "Developing front-end features using Angular, HTML5, CSS, SASS, and JavaScript.",
-      "experience2": "Implement N layer architecture in the back end using .Net and .NetCore.",
+      "experience2": "N layer architecture implementation in the back end using .Net and .NetCore.",
       "experience3": "Developing RESTful API services using .Net, .NetCore, and Node.js.",
-      "experience4": "Implement front-end unit tests using Karma, Jasmine, and Jest tools.",
-      "experience5": "Integrate database using Entity Framework with .Net and .NetCore."
+      "experience4": "Implementation of front-end unit tests using Karma, Jasmine, and Jest tools.",
+      "experience5": "Integration with database using Entity Framework with .Net and .NetCore."
     },
     "falabella": {
       "experience1": "Front-end development using Angular, HTML5, CSS, and JavaScript with pre-built UI components from Angular Material and Bootstrap.",
@@ -46,7 +47,7 @@
     },
     "asesoftware": {
       "experience1": "Front-end development with Angular, AngularJS, HTML5, CSS, Bootstrap and JavaScript",
-      "experience2": "Development of API Rest Services using .NET and .NET Core frameworks.",
+      "experience2": "Developing API Rest Services using .NET and .NET Core frameworks.",
       "experience3": "Implementation of front-end unit tests using Karma and Jasmine tools."
     }
   },

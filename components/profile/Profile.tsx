@@ -30,6 +30,7 @@ export const Profile = () => {
       <Grid mt={15} mb={5}>
         <JackInTheBox>
           <Typography
+            id="about-me"
             mt={5}
             mb={5}
             variant="h5"

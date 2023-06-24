@@ -107,7 +107,7 @@ export const Experience = () => {
         </Typography>
       </JackInTheBox>
 
-      <Grid container id="projects">
+      <Grid container>
         {experiences.map((exp, i) => {
           return (
             <Grid key={exp.title} item md={4} sm={6} textAlign="center">

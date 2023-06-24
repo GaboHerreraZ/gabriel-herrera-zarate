@@ -1,7 +1,6 @@
 "use client";
 import { AppBar, Toolbar, Box, Button, Link, IconButton } from "@mui/material";
 import { useTranslations } from "next-intl";
-import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { DrawerContent } from "./Drawer";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -28,12 +27,10 @@ export const Navbar = () => {
 
   const langs = useTranslations("navbar");
 
-  const { push } = useRouter();
   const [url, setUrl] = useState("");
 
   const onRedirect = (href: string) => {
     setUrl(href);
-    push(`#${href}`);
   };
 
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -83,7 +80,10 @@ export const Navbar = () => {
                   fontFamily: "var(--font-family-text)",
                 }}
               >
-                <Link sx={{ textDecoration: "none", color: "#fff" }}>
+                <Link
+                  href={`#${item.url}`}
+                  sx={{ textDecoration: "none", color: "#fff" }}
+                >
                   {langs(item.label)}
                 </Link>
               </Button>

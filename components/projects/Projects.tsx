@@ -27,7 +27,7 @@ export const Projects = () => {
   ];
 
   return (
-    <Grid mt={10} mb={5}>
+    <Grid id="projects" mt={10} mb={5}>
       <JackInTheBox>
         <Typography
           mt={5}
