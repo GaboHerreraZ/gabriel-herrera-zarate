@@ -80,7 +80,7 @@ export const Profile = () => {
                 <Link
                   download={true}
                   sx={{ textDecoration: "none" }}
-                  href={`/documents/GabrielGiovany_HerreraZarate_CV_${locale}.pdf`}
+                  href={`/documents/GabrielGiovany_HerreraZarate_CV_${locale.toUpperCase()}.pdf`}
                 >
                   {lang("download")}
                 </Link>
