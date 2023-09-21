@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { DrawerContent } from "./Drawer";
 import MenuIcon from "@mui/icons-material/Menu";
+import Image from "next/image";
 
 export const Navbar = () => {
   const navItems = [
@@ -47,7 +48,7 @@ export const Navbar = () => {
         <Toolbar
           sx={{
             display: "flex",
-            justifyContent: { sm: "flex-end", xs: "flex-start" },
+            justifyContent: { sm: "space-between", xs: "space-between" },
             backgroundColor: "#121212",
             boxShadow: "0px 15px 10px -15px grey",
           }}
@@ -61,6 +62,12 @@ export const Navbar = () => {
           >
             <MenuIcon />
           </IconButton>
+          <Image
+            alt="Gabriel Herrera Z"
+            width={150}
+            height={50}
+            src="/svg/gabriel-herrera-z-logo.svg"
+          ></Image>
           <Box
             sx={{
               display: {
