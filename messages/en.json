@@ -8,7 +8,7 @@
   "welcome": {
     "label": "Welcome, I'm",
     "rol": "Software Developer.",
-    "description": "Electronic engineering professional based in Colombia, passionate about computer technologies and web application development, focused on front end technologies such as Angular and ReactJs.",
+    "description": "Electronic engineering professional passionate about computer technologies and web application development, focused on front end technologies such as Angular and ReactJs.",
     "contact": "Get in Touch"
   },
   "profile": {
@@ -53,6 +53,7 @@
   },
   "projects": {
     "seeMore": "See More",
-    "taiCenter": "Web application for the management of users and class reservations in a gym, was developed with the following technologies:"
+    "taiCenter": "Web application for the management of users and class reservations in a gym, was developed with the following technologies:",
+    "inversionesCedroAzul": "Landing page for a construction company, was developed with Nextjs and Tailwindcss technologies, includes improvements recommended by Vercel for SEO in search engines:"
   }
 }

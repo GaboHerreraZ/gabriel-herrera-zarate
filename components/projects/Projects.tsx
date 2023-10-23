@@ -24,6 +24,22 @@ export const Projects = () => {
       ],
       url: "https://www.taicenter.es/#/inicio",
     },
+    {
+      title: "Inversiones Cedro Azul",
+      description: "inversionesCedroAzul",
+      image: "/img/logo-cedro-azul.png",
+      skills: [
+        {
+          title: "Next js",
+          svg: "/svg/next.svg",
+        },
+        {
+          title: "Tailwindcss",
+          svg: "/svg/tailwind.svg",
+        },
+      ],
+      url: "https://www.grupocedroazul.com/es",
+    },
   ];
 
   return (
