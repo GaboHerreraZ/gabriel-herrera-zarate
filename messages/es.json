@@ -8,7 +8,7 @@
   "welcome": {
     "label": "Bienvenido, Soy",
     "rol": "Desarrollador de Software.",
-    "description": "Profesional en ingeniería electrónica radicado en Colombia, apasionado por las tecnologías informáticas y el desarrollo deaplicaciones web, enfocado en tecnologías front end como Angular y ReactJs.",
+    "description": "Profesional en ingeniería electrónica apasionado por las tecnologías informáticas y el desarrollo deaplicaciones web, enfocado en tecnologías front end como Angular y ReactJs.",
     "contact": "Contacto"
   },
   "profile": {
@@ -53,6 +53,7 @@
   },
   "projects": {
     "seeMore": "Ver más",
-    "taiCenter": "Aplicación web para la gestión de usuarios y reservas de clases de un gimnasio , fue desarrollada con las siguientes tecnologías:"
+    "taiCenter": "Aplicación web para la gestión de usuarios y reservas de clases de un gimnasio , fue desarrollada con las siguientes tecnologías:",
+    "inversionesCedroAzul": "Landing page for a construction company, was developed with Nextjs and Tailwindcss technologies, includes improvements recommended by Vercel for SEO in search engines:"
   }
 }

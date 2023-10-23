@@ -61,6 +61,13 @@ export const Skills = () => {
       height: 40,
     },
     {
+      title: "Tailwindcss",
+      svg: "/svg/tailwind.svg",
+      rating: 3,
+      width: 40,
+      height: 40,
+    },
+    {
       title: "Karma",
       svg: "/svg/karma.svg",
       rating: 3,
