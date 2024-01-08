@@ -1,54 +1,20 @@
-import { Grid, Typography } from "@mui/material";
-import { useTranslations } from "next-intl";
-import { JackInTheBox } from "react-awesome-reveal";
-import { Project } from "../../interfaces/Project";
-import { CardProject } from "./CardProject";
+import { getTranslation } from "@/i18n";
+import { ProjectCard } from "./ui/Project";
+import { projects } from "./const";
 
-export const Projects = () => {
-  const langNavbar = useTranslations("navbar");
-
-  const projects: Project[] = [
-    {
-      title: "Tai Center",
-      description: "taiCenter",
-      image: "/img/tai-center.png",
-      skills: [
-        {
-          title: "Angular",
-          svg: "/svg/angular.svg",
-        },
-        {
-          title: "Firebase",
-          svg: "/svg/firebase.svg",
-        },
-      ],
-      url: "https://www.taicenter.es/#/inicio",
-    },
-  ];
+export const Projects = async ({ lng }: { lng: string }) => {
+  const { t } = await getTranslation(lng, "projects");
 
   return (
-    <Grid id="projects" mt={10} mb={5}>
-      <JackInTheBox>
-        <Typography
-          mt={5}
-          mb={5}
-          variant="h5"
-          textAlign="center"
-          fontFamily="var(--font-family-text)"
-          color="#121fcf"
-        >
-          {langNavbar("projects")}
-        </Typography>
-      </JackInTheBox>
-      <Grid container>
-        {projects.map((project, i) => {
-          return (
-            <Grid item p={1} md={4} sm={6} xs={12} key={i}>
-              <CardProject project={project} />
-            </Grid>
-          );
-        })}
-      </Grid>
-    </Grid>
+    <section id="projects" className="mt-20 scroll-smooth ">
+      <h3 className="text-bold text-center text-gradient  text-2xl ">
+        {t("title")}
+      </h3>
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-2 mt-10 justify-center ">
+        {projects.map((project, idx) => (
+          <ProjectCard key={idx} project={project} lng={lng} />
+        ))}
+      </div>
+    </section>
   );
 };

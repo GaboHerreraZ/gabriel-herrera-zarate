@@ -1,0 +1,21 @@
+{
+  "title": "3.<Experience />",
+  "raonaExperience1": "Developing user stories using Angular, HTML, JavaScript, PrimeNG, and SASS.",
+  "raonaExperience2": "Perform front-end unit tests using Jest.",
+  "raonaExperience3": "Code version control using Git in Azure DevOps.",
+  "raonaExperience4": "Scrum as an agile methodology for project management.",
+  "raonaExperience5": "Functional tests using Cypress to validate the behavior of the web application from a user's perspective.",
+  "hiberusExperience1": "Developing front-end features using Angular, HTML5, CSS, SASS, and JavaScript.",
+  "hiberusExperience2": "N layer architecture implementation in the back end using .Net and .NetCore.",
+  "hiberusExperience3": "Developing RESTful API services using .Net, .NetCore, and Node.js.",
+  "hiberusExperience4": "Implementation of front-end unit tests using Karma, Jasmine, and Jest tools.",
+  "hiberusExperience5": "Integration with database using Entity Framework with .Net and .NetCore.",
+  "falabellaExperience1": "Front-end development using Angular, HTML5, CSS, and JavaScript with pre-built UI components from Angular Material and Bootstrap.",
+  "falabellaExperience2": "Developing of API Rest Services using .NET and .NET Core frameworks.",
+  "falabellaExperience3": "Implementation of functional test automation using Selenium WebDriver.",
+  "falabellaExperience4": "Implementation of front-end unit tests using Karma and Jasmine tools.",
+  "falabellaExperience5": "Developing of SQL queries and stored procedures for SQL Server and Oracle databases.",
+  "asesoftwareExperience1": "Front-end development with Angular, AngularJS, HTML5, CSS, Bootstrap and JavaScript",
+  "asesoftwareExperience2": "Developing API Rest Services using .NET and .NET Core frameworks.",
+  "asesoftwareExperience3": "Implementation of front-end unit tests using Karma and Jasmine tools."
+}

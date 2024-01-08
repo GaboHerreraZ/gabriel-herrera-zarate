@@ -1,0 +1,21 @@
+{
+  "title": "3.<Experiencia />",
+  "raonaExperience1": "Desarrollo de funcionalidades en Front End con Angular, html5, Css, SASS, JavaScript.",
+  "raonaExperience2": "Realización de pruebas unitarias front-end utilizando Jest.",
+  "raonaExperience3": "Control de versiones de código usando Git en Azure DevOps..",
+  "raonaExperience4": "Scrum como metodología ágil para la gestión de proyectos.",
+  "raonaExperience5": "Pruebas funcionales utilizando Cypress para validar el comportamiento de la aplicación web desde la perspectiva del usuario.",
+  "hiberusExperience1": "Desarrollo de funciones front-end utilizando Angular, HTML5, CSS, SASS y JavaScript.",
+  "hiberusExperience2": "Implementación de arquitectura de capa N en el backend usando .Net y .Net Core.",
+  "hiberusExperience3": "Desarrollo de servicios de API RESTful utilizando .Net, .NetCore y Node.js.",
+  "hiberusExperience4": "Implementación de pruebas unitarias de front-end utilizando las herramientas Karma, Jasmine y Jest.",
+  "hiberusExperience5": "Integración con base de datos usando Entity Framework con .Net y .Net Core.",
+  "falabellaExperience1": "Desarrollo front-end usando Angular, HTML5, CSS y JavaScript con componentes de interfaz de usuario prediseñados de Angular Material y Bootstrap.",
+  "falabellaExperience2": "Desarrollo de API Rest Services utilizando frameworks .NET y .NET Core.",
+  "falabellaExperience3": "Implementación de automatización de pruebas funcionales usando Selenium WebDriver.",
+  "falabellaExperience4": "Implementación de pruebas unitarias de front-end utilizando las herramientas Karma y Jasmine.",
+  "falabellaExperience5": "Desarrollo de consultas SQL y procedimientos almacenados para bases de datos SQL Server y Oracle.",
+  "asesoftwareExperience1": "Desarrollo front-end con Angular, AngularJS, HTML5, CSS, Bootstrap y JavaScript.",
+  "asesoftwareExperience2": "Desarrollo de servicios API Rest utilizando frameworks .NET y .NET Core.",
+  "asesoftwareExperience3": "Implementación de pruebas unitarias de front-end utilizando las herramientas Karma y Jasmine."
+}
