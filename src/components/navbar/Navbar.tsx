@@ -26,7 +26,7 @@ export default async function Navigation({ lng }: { lng: string }) {
   ];
 
   return (
-    <nav className="flex relative md:h-14 md:justify-between  md:px-10  md:shadow-md  md:shadow-white/20 md:rounded-lg">
+    <nav className="flex fixed z-20 top-0 w-full bg-slate-900 left-0 md:h-14 md:justify-between  md:px-10  md:shadow-md  md:shadow-white/20 md:rounded-lg">
       <input type="checkbox" id="menu" className="peer hidden" />
       <label
         htmlFor="menu"

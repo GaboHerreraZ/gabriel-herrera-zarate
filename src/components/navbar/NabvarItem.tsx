@@ -1,14 +1,16 @@
 "use client";
 import { clsx } from "clsx";
 import Link from "next/link";
+import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export const NavbarItem = ({ url, label }: { url: string; label: string }) => {
-  const [path, setPath] = useState<string | null>(null);
+  const [path, setPath] = useState<string | null>();
+  const params = useParams();
 
   useEffect(() => {
     setPath(window.location.hash);
-  }, [path]);
+  }, [params]);
 
   return (
     <li
