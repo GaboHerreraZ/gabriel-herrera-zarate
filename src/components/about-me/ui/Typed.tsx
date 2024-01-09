@@ -15,7 +15,7 @@ export const TypedText = ({ message }: { message: string }) => {
     return () => {
       typed.destroy();
     };
-  }, []);
+  }, [message]);
 
   return (
     <div className="font-bold mt-5 text-2xl h-14 text-white md:text-5xl">
